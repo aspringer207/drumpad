@@ -22,7 +22,6 @@ function App() {
             <FormLabel>Volume</FormLabel>
             <Form.Range id="volume" defaultValue="50"></Form.Range>
           </FormGroup>
-
         </div>
       </div>
       <Card>
