@@ -34,7 +34,7 @@ function App() {
               Q
               <audio href="src/assets/sticks.wav" id="q"></audio>
             </Button>
-            <Button className="drum-pad" variant="danger" size="lg" id="hihat">W <audio href="src/pearlkit/pearlkit-hitom1.wav" id="w"></audio></Button>
+            <Button className="drum-pad" variant="danger" size="lg" id="hihat">W <audio href="src/assets/drum_cymbal_pedal.wav" id="w"></audio></Button>
             <Button className="drum-pad" variant="primary" size="lg" id="crash">E <audio id="e"></audio></Button>
 
           </ButtonGroup>
