@@ -30,19 +30,16 @@ function App() {
         </Row>
         <Row>
           <ButtonGroup size="lg">
-            <Button className="drum-pad" variant="warning" size="lg" id="sticks">
-              Q
-              <audio href="src/assets/sticks.wav" id="q"></audio>
-            </Button>
-            <Button className="drum-pad" variant="danger" size="lg" id="hihat">W <audio href="src/assets/drum_cymbal_pedal.wav" id="w"></audio></Button>
-            <Button className="drum-pad" variant="primary" size="lg" id="splash">E <audio href="src/assets/drum_splash_hard.wav" id="e"></audio></Button>
+            <Button className="drum-pad" variant="warning" id="sticks">Q<audio href="src/assets/sticks.wav" id="q"></audio></Button>
+            <Button className="drum-pad" variant="danger" id="hihat">W<audio href="src/assets/drum_cymbal_pedal.wav" id="w"></audio></Button>
+            <Button className="drum-pad" variant="primary" id="crash">E<audio href="src/assets/drum_splash_hard.wav" id="e"></audio></Button>
 
           </ButtonGroup>
 
         </Row>
         <Row>
           <ButtonGroup>
-            <Button className="drum-pad" variant="primary" size="lg" id="ride">A <audio id="a"></audio></Button>
+            <Button className="drum-pad" variant="primary" size="lg" id="ride">A <audio id="a"href="src/assets/SabHHXEvo20_Bell05.wav"></audio></Button>
             <Button className="drum-pad" variant="info" id="snare" size="lg">S <audio id="s" href="src/assets/drum_snare_hard.wav"></audio></Button>
             <Button className="drum-pad" variant="danger" id="bass" size="lg">D <audio id="d" href="src/assets/drum_bass_hard.wav"></audio></Button>
           </ButtonGroup>
