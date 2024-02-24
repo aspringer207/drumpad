@@ -31,8 +31,8 @@ function App() {
         <Row>
           <ButtonGroup size="lg">
             <Button className="drum-pad" variant="warning" id="sticks">Q<audio href="src/assets/sticks.wav" id="q"></audio></Button>
-            <Button className="drum-pad" variant="danger" id="hihat">W<audio href="src/assets/drum_cymbal_pedal.wav" id="w"></audio></Button>
-            <Button className="drum-pad" variant="primary" id="crash">E<audio href="src/assets/drum_splash_hard.wav" id="e"></audio></Button>
+            <Button className="drum-pad" variant="danger" id="hihat">W<audio href="src/assets/ZildMstrsnd-HiHat0.wav" id="w"></audio></Button>
+            <Button className="drum-pad" variant="primary" id="crash">E<audio href="src/assets/ZildjinCrsh 1-Dyn09.wav" id="e"></audio></Button>
 
           </ButtonGroup>
 
