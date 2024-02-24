@@ -1,0 +1,20 @@
+@use 'sass:color';
+@use 'sass:map';
+@use 'sass:list';
+@use 'sass:math';
+@use 'sass:meta';
+@use 'sass:selector';
+@use 'sass:string';
+
+
+
+$theme-colors: (
+  'primary': #6610f2,
+  'success': #20c997,
+  'warning': #ffc107,
+  'info': #0dcaf0,
+  'danger': #d63384,
+  'light': whitesmoke,
+  'dark': #161616
+);
+@import "../node_modules/bootstrap/scss/bootstrap";
