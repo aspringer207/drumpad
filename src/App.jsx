@@ -7,15 +7,11 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import Alert from 'react-bootstrap/Alert';
-import { Form, FormGroup, FormLabel, Card } from 'react-bootstrap';
+import { Form, FormGroup, FormLabel, Card, AlertHeading } from 'react-bootstrap';
 
 function App() {
-  const [volume, setVolume] = useState(0)
-
-  const initialVolume = document.getElementById("volume").defaultValue
-
   return (
-    <div>
+    <>
       <div class="settingsBar">
         <div id="volume-wrapper">
           <FormGroup>
@@ -74,7 +70,7 @@ function App() {
       </Col>
 
 
-    </div>
+    </>
   )
 }
 
